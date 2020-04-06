@@ -10,5 +10,6 @@ import javax.persistence.Table;
 @Table(name ="camera")
 @Data
 public class CameraDTO extends BaseDTO {
-
+    private String brand;
+    private String model;
 }
