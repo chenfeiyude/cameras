@@ -1,6 +1,6 @@
 package com.feiyu4fun.cameras.aspects;
 
-import org.apache.http.auth.AuthenticationException;
+import com.feiyu4fun.cameras.exceptions.AuthenticationException;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;

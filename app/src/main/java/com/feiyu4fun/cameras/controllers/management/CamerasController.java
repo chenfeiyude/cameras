@@ -20,7 +20,7 @@ public class CamerasController {
     private CamerasService camerasService;
 
     @RequestMapping(method= RequestMethod.GET, value="/get/{brand}")
-    public List<CameraDTO> getBrand(@RequestHeader Map<String, String> headers,
+    public List<CameraDTO> getCamerasByBrand(@RequestHeader Map<String, String> headers,
                                     @PathVariable("brand") String brand) {
 
         return camerasService.getCamerasByBrand(brand);

@@ -6,7 +6,6 @@ import java.util.List;
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 
-import org.apache.http.auth.AuthenticationException;
 import org.hibernate.validator.internal.engine.path.PathImpl;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.http.HttpHeaders;
